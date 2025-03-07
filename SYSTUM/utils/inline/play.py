@@ -51,7 +51,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     elif 80 <= umm < 95:
         bar = "─────────💞─"   
     else:
-        bar = "➥꯭꯭𓆰꯭꯭♔꯭꯭ 𝗝꯭ᴀ꯭፝֟͠ɴ꯭ɪ꯭꯭⎯꯭꯭ꨄ꯭.꯭𝆭 ⃪꯭꯭꯭꯭꯭꯭🔥꯭➛꯭💌꯭꯭"
+        bar = "➥꯭꯭THE CLASSY🔥꯭➛꯭💌꯭꯭"
         
     buttons = [
         [
@@ -69,10 +69,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="𝗢𝘄𝗻𝗲𝗿", url="http://t.me/RAM_HACKER_RP",
+                text="welcome", url="https://t.me/+LM9Qvb7HmTA4NjI1",
             ),
             InlineKeyboardButton(
-                text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/+FQF7rz0qM1MxMTk1",
+                text="DIL", url="https://t.me/+rSlnxFeTxbc1MzJl",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -91,10 +91,10 @@ def stream_markup(_, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="𝗢𝘄𝗻𝗲𝗿", url="http://t.me/RAM_HACKER_RP",
+                text="welcome", url="https://t.me/+LM9Qvb7HmTA4NjI1",
             ),
             InlineKeyboardButton(
-                text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/+FQF7rz0qM1MxMTk1",
+                text="DIL", url="https://t.me/+LM9Qvb7HmTA4NjI1",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
